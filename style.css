@@ -76,6 +76,12 @@ header ul li a {
     height: 25rem;
 }
 
+@media (max-width: 800px) {
+
+    .firstimage { box-sizing: border-box; display: none; margin: 0 auto;  }
+
+}
+
 /* Box 2 */
 
 .box2 {
@@ -88,7 +94,7 @@ header ul li a {
 .box2 section {
     text-align: center;
     padding: 100px;
-    width: 22rem;
+    width: 2200%;
 }
 
 .box2 img {
@@ -365,3 +371,55 @@ footer ul li a {
     padding: 10px 30px 10px 30px;
     margin-bottom: 10%;
 }
+
+.blogintro {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.blogintro h1 {
+    color:#009688;
+    font-weight: 700;
+    font-size: 47px;
+    margin-bottom: 3%;
+}
+
+.blogintro h5 {
+    font-weight: 300;
+    font-size: 20px;
+    width: 80%;
+}
+
+.blogintro section {
+    width: 50%;
+}
+
+.blogposts {
+    background-color: #E5E5E5;
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blogposts h4 {
+    margin: 2% 0 2% 0;
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.singlepost {
+    width: 31rem;
+}
+
+.singlepost p {
+    margin-bottom: 10%;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
